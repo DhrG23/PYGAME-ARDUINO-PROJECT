@@ -24,7 +24,7 @@ background_image = pygame.image.load("bg3.png")  # Replace with your image path
 background_image = pygame.transform.scale(background_image, (width, height))
 
 # Load the spaceship image
-spaceship_image = pygame.image.load("your_spaceship_image.png")
+spaceship_image = pygame.image.load("spaceship.png")
 spaceship_image = pygame.transform.scale(spaceship_image, (spaceship_width, spaceship_height))
 
 # Load the collision object sprites
